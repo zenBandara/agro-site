@@ -1,0 +1,63 @@
+.main-content .benefit-section{width:100%; margin-bottom: 20%;padding:120px 0 50px;display:flex;flex-flow:row wrap;justify-content:center;align-items:center;text-align:center}
+.main-content .benefit-section__title{width:80%;max-width:500px;margin-bottom:50px}
+.main-content .benefit-section .benefit-info-cards{width:80%;max-width:400px;display:flex;flex-flow:row wrap;justify-content:space-evenly;align-items:center}
+.main-content .benefit-section .benefit-info-cards .info-card{width:100%;max-width:24%;display:flex;flex-flow:row wrap;justify-content:center;align-items:center;padding:30px 0 15px;margin-bottom:-150px;border-radius:20px;box-shadow:0px 0px 20px #00BF63;cursor:pointer;transition:all .3s ease-in}
+.main-content .benefit-section .benefit-info-cards .info-card:hover{background-color:#35068c;color:#fff;transform:scale(1.05)}
+.main-content .benefit-section .benefit-info-cards .info-card:hover p{color:#fff;transform:scale(1.05)}
+.main-content .benefit-section .benefit-info-cards .info-card:active{transform:scale(0.95);background-color:#4808bd}
+.main-content .benefit-section .benefit-info-cards .info-card .fab{font-size:80px}
+.main-content .benefit-section .benefit-info-cards .info-card .fa-bitcoin{color:#f9aa4b ; font-size:80px}
+.main-content .benefit-section .benefit-info-cards .info-card .fa-ethereum{color:#fff;padding:10px 20px;font-size:60px;border-radius:50%;background-color:#1181e8}
+.main-content .benefit-section .benefit-info-cards .info-card__title{width:100%;font-size:2rem;margin:30px auto 20px;color: #00BF63;padding-bottom: 20px;}
+.main-content .benefit-section .benefit-info-cards .info-card__title span{font-size:1.8rem;font-weight:400;color:#979797}
+.main-content .benefit-section .benefit-info-cards .info-card__description{font-size:14px;width:90%;color:#fff;padding-top: 20px;padding-bottom: 50px;padding-top: 50px;}
+.main-content .benefit-section .benefit-info-cards .info-card__btn{width:150px;padding:9px 10px;background-color:#3671e9;color:#fff;border-radius:25px;display:inline-block;text-align:center;text-decoration:none;font-size:1.4rem;margin:30px auto}
+.main-content .benefit-section .benefit-info-cards .info-card__btn i{margin-left:10px;color:#3671e9;background-color:#fff;border-radius:50%;padding:5px;width:25px}
+.main-content .benefit-section .benefit-info-cards .info-card__icon{width: 150px;height: 100px;}
+
+.main-content .benefit-section__title{width:100%}
+.main-content .benefit-section .benefit-info-cards{width:95%;max-width:1050px}
+
+.main-content .benefit-section{flex-flow:column nowrap}
+.main-content .benefit-section__title{margin:50px auto}
+.main-content .benefit-section .benefit-info-cards{max-width:1150px}
+
+/* Style the benefits section title */
+.benefit-section__title {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 20px;
+    
+  }
+
+  .benefits-section__title .span-b {
+    color:#00BF63;
+  }
+
+  .benefits-section__title .span-a {
+    color:#3b9af1;
+  }
+  
+  /* Style the benefits section description */
+  .benefit-section__description {
+    
+    color: #ffffff;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 30px;
+  }
+
+  .benefits-section__container {
+    background-color: #0f054c;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  /* Mobile responsiveness */
+@media (max-width: 768px) {
+  .main-content .benefit-section .benefit-info-cards .info-card {
+    width: 100%; /* Full width for mobile */
+    max-width: none;
+    margin-bottom: 10px;
+  }
+}

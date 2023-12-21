@@ -1,0 +1,24 @@
+/* ScrollToTopButton.css */
+.hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .show:hover {
+    background-color: #0056b3;
+  }
+  

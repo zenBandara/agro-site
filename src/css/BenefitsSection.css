@@ -1,0 +1,261 @@
+/* Style the benefits section container */
+.benefits-section {
+    background-color: #0f054c;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  /* Style the benefits section title */
+  .benefits-section__title {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 20px;
+  }
+
+  .benefits-section__title .span-b {
+    color:#00BF63;
+  }
+  .benefits-section__title .span-a {
+    color:#3b9af1;
+  }
+
+  /* Style the benefits section description */
+  .benefits-section__description {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 30px;
+  }
+  
+  /* Style the benefits section row */
+  .benefits-section__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the individual benefit cards */
+  .benefits-section__card {
+    background-color: #0f054c;
+    box-shadow:0px 0px 20px #00BF63;
+    border-radius: 20px;
+    text-align: left;
+    width: calc(40% - 10px); /* Two cards per row with spacing */
+    margin-left: 63px;
+    margin-right: 63px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 10px;
+  }
+
+  .benefits-section__card:hover {background-color:#4808bd;color:#fff;transform:scale(1.05)}
+  .benefits-section__card:hover h3 {color:#fff}
+  .benefits-section__card:hover p {color:#fff}
+  .benefits-section__card:active {transform:scale(0.95);}
+  
+  /* Style the benefit card content (title and description) */
+  .benefits-section__content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  
+  /* Style the benefit card title */
+  .benefits-section__card-title {
+    font-size: 18px;
+    color: #00BF63;
+    margin-bottom: 10px;
+    text-align: center; /* Center text */
+  }
+  
+  /* Style the benefit card description */
+  .benefits-section__card-description {
+    font-size: 14px;
+    color: #fff;
+    text-align: center; /* Center text */
+  }
+  
+  /* Style the benefit card image */
+  .benefits-section__image {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .benefits-section__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+ 
+  
+  
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  /* Center-align the title */
+  .benefits-section__title {
+    text-align: center;
+  }
+
+  /* Reduce padding and margin for cards */
+  .benefits-section__card {
+    width: 100%; /* Make cards full width */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  /* Adjust title and description font sizes */
+  .benefits-section__title {
+    font-size: 20px; /* Adjust title font size */
+  }
+  .benefits-section__description {
+    font-size: 14px; /* Adjust description font size */
+  }
+
+  /* Increase space between rows */
+  .benefits-section__row {
+    margin-bottom: 20px;
+  }
+
+  /* Center-align card content */
+  .benefits-section__content {
+    text-align: center;
+  }
+
+  /* Adjust image size */
+  .benefits-section__image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 834px) {
+  /* Center-align the title */
+  .benefits-section__title {
+    text-align: center;
+  }
+
+  /* Reduce padding and margin for cards */
+  .benefits-section__card {
+    width: 100%; /* Make cards full width */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  /* Adjust title and description font sizes */
+  .benefits-section__title {
+    font-size: 20px; /* Adjust title font size */
+  }
+  .benefits-section__description {
+    font-size: 14px; /* Adjust description font size */
+  }
+
+  /* Increase space between rows */
+  .benefits-section__row {
+    margin-bottom: 20px;
+  }
+
+  /* Center-align card content */
+  .benefits-section__content {
+    text-align: center;
+  }
+
+  /* Adjust image size */
+  .benefits-section__image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 1280px) {
+  /* Center-align the title */
+  .benefits-section__title {
+    text-align: center;
+  }
+
+  /* Reduce padding and margin for cards */
+  .benefits-section__card {
+    width: 100%; /* Make cards full width */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  /* Adjust title and description font sizes */
+  .benefits-section__title {
+    font-size: 20px; /* Adjust title font size */
+  }
+  .benefits-section__description {
+    font-size: 14px; /* Adjust description font size */
+  }
+
+  /* Increase space between rows */
+  .benefits-section__row {
+    margin-bottom: 20px;
+  }
+
+  /* Center-align card content */
+  .benefits-section__content {
+    text-align: center;
+  }
+
+  /* Adjust image size */
+  .benefits-section__image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 1024px) {
+  /* Center-align the title */
+  .benefits-section__title {
+    text-align: center;
+  }
+
+  /* Reduce padding and margin for cards */
+  .benefits-section__card {
+    width: 100%; /* Make cards full width */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  /* Adjust title and description font sizes */
+  .benefits-section__title {
+    font-size: 20px; /* Adjust title font size */
+  }
+  .benefits-section__description {
+    font-size: 14px; /* Adjust description font size */
+  }
+
+  /* Increase space between rows */
+  .benefits-section__row {
+    margin-bottom: 20px;
+  }
+
+  /* Center-align card content */
+  .benefits-section__content {
+    text-align: center;
+  }
+
+  /* Adjust image size */
+  .benefits-section__image img {
+    width: 100%;
+    height: auto;
+  }
+}

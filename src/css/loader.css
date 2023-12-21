@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f054c;
+}
+
+
+
+div#center {
+    position: absolute;
+    margin: 0 auto;
+    top: 82%;
+    left: 45%;
+    height: 700px;
+}
+
+div#center span {
+    position: relative;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bolder;
+    color: inherit;
+}
+
+/* Add a media query for smaller screens, e.g., mobile devices */
+@media (max-width: 768px) {
+    div#center {
+        height: 300px; /* Adjust the height for mobile */
+    }
+
+    div#center span {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+
+@keyframes janimation {
+    0% {
+        transform: rotate(0deg) scale(1.5);
+        color: #aaa;
+    }
+    10% {
+        transform: rotate(0deg) scale(1.7);
+        color: #ccc;
+    }
+    100% {
+        transform: rotate(0deg) scale(1.2);
+        /*color: #333;*/
+        color: transparent;
+        text-shadow: #666 0 0 10px;
+    }
+}
+
+div#center div {
+    position: relative;
+    display: inline-block;
+    animation: janimation 2.2s infinite;
+}
+
+div#center div.letter_container_1 {
+    animation-delay: 0s;
+}
+
+div#center div.letter_container_2 {
+    animation-delay: .2s;
+}
+
+div#center div.letter_container_3 {
+    animation-delay: .4s;
+}
+
+div#center div.letter_container_4 {
+    animation-delay: .6s;
+}
+
+div#center div.letter_container_5 {
+    animation-delay: .8s;
+}
+
+div#center div.letter_container_6 {
+    animation-delay: 1s;
+}
+
+div#center div.letter_container_7 {
+    animation-delay: 1.2s;
+}
